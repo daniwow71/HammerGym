@@ -3,7 +3,7 @@ import sequelize from "../database/database.js"
 
 const Membresia = sequelize.define('Membresia', {
     idMembresia: {
-        type: DataTypes,INTEGER,
+        type: DataTypes.INTEGER,
         primaryKey: true,
         autoIncrement: true
     },

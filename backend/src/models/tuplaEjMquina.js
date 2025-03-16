@@ -27,4 +27,4 @@ const tuplaEjMq = sequelize.define('tuplaEjMq', {
 
 });
 
-export default Membresia;
+export default tuplaEjMq;

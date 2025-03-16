@@ -3,7 +3,7 @@ import sequelize from "../database/database.js"
 
 const Ejercicio = sequelize.define('Ejercicio', {
     idEjercicio: {
-        type: DataTypes,INTEGER,
+        type: DataTypes.INTEGER,
         primaryKey: true,
         autoIncrement: true
     },
@@ -20,4 +20,4 @@ const Ejercicio = sequelize.define('Ejercicio', {
 
 });
 
-export default Membresia;
+export default Ejercicio;

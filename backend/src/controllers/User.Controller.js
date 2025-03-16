@@ -75,4 +75,6 @@ export default class UserController{
   logout = async (req, res) => {
     return res.status(200).clearCookie('token').json({ success: MESSAGES.LOGOUT_SUCCESS });
   }
+
+  
 }

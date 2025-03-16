@@ -3,7 +3,7 @@ import sequelize from "../database/database.js"
 
 const modeloMaquina = sequelize.define('modeloMaquina', {
     idmodeloMaquina: {
-        type: DataTypes,INTEGER,
+        type: DataTypes.INTEGER,
         primaryKey: true,
         autoIncrement: true
     },
@@ -21,4 +21,4 @@ const modeloMaquina = sequelize.define('modeloMaquina', {
 
 });
 
-export default Membresia;
+export default modeloMaquina;

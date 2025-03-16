@@ -1,9 +1,9 @@
 import { DataTypes } from "sequelize"
 import sequelize from "../database/database.js"
 
-const Gimnasio = sequelize.define('gimnasio', {
+const Gimnasio = sequelize.define('Gimnasio', {
     idGimnasio: {
-        type: DataTypes,INTEGER,
+        type: DataTypes.INTEGER,
         primaryKey: true,
         autoIncrement: true
     },
@@ -25,4 +25,4 @@ const Gimnasio = sequelize.define('gimnasio', {
 
 });
 
-export default Membresia;
+export default Gimnasio;

@@ -3,7 +3,7 @@ import sequelize from "../database/database.js"
 
 const Clase = sequelize.define('Clase', {
     idClase: {
-        type: DataTypes,INTEGER,
+        type: DataTypes.INTEGER,
         primaryKey: true,
         autoIncrement: true
     },

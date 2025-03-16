@@ -3,7 +3,7 @@ import sequelize from "../database/database.js"
 
 const actividadUsuario = sequelize.define('actividadUsuario', {
     idActividad: {
-        type: DataTypes,INTEGER,
+        type: DataTypes.INTEGER,
         primaryKey: true,
         autoIncrement: true
     },

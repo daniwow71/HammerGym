@@ -3,7 +3,7 @@ import sequelize from "../database/database.js"
 
 const Cuenta = sequelize.define('Cuenta', {
     idCuenta: {
-        type: DataTypes,INTEGER,
+        type: DataTypes.INTEGER, // Cambiado de DataTypes,INTEGER a DataTypes.INTEGER
         primaryKey: true,
         autoIncrement: true
     },

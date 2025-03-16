@@ -3,7 +3,7 @@ import sequelize from "../database/database.js"
 
 const Usuario = sequelize.define('Usuario', {
     idUsuario: {
-        type: DataTypes,INTEGER,
+        type: DataTypes.INTEGER,
         primaryKey: true,
         autoIncrement: true
     },
@@ -21,9 +21,9 @@ const Usuario = sequelize.define('Usuario', {
     }
 
 }, {
-    tableName: 'Membresia',
+    tableName: 'Usuario',
     timestamps: false
 
 });
 
-export default Membresia;
+export default Usuario;
